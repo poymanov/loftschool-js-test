@@ -62,8 +62,8 @@ ul {
 	border-radius: 20px;
 }
 
-.list__arr-bottom {
-	background-image: url(../img/arr-bottom.png);
+.list__arr-down {
+	background-image: url(../img/arr-down.png);
 	background-position: 95% center;
 	background-repeat: no-repeat;
 }
@@ -86,6 +86,11 @@ ul {
 .sublist {
 	padding-top: 10px;
 	padding-bottom: 5px;
+	display: none;
+}
+
+.sublist-show {
+	display: block;
 }
 
 .sublist__item {
