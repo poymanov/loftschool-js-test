@@ -1,0 +1,97 @@
+@font-face {
+		font-family: "FiraSansMedium";
+		src: url("../fonts/FiraSans-Medium.otf");
+		font-style: normal;
+		font-weight: normal;
+}
+
+@font-face {
+		font-family: "FiraSansLight";
+		src: url("../fonts/FiraSans-Light.otf");
+		font-style: normal;
+		font-weight: normal;
+}
+
+/* -------------------- */
+
+.wrapper {
+	width: 459px;
+	margin: 0 auto;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.logo {
+	text-align: center;
+	padding-top: 23px;
+	margin-bottom: 23px;
+}
+
+.list__item {
+	margin-bottom: 5px;
+	background-color: #e7e7e7;
+	border-radius: 20px;
+}
+
+.list__item:nth-child(odd) .list__item-header{
+	background-color: #e7e7e7;
+}
+
+.list__item:nth-child(odd) .list__item-link {
+	color: #4f4f4f;	
+}
+
+.list__item-active .list__item-header,
+.list__item:nth-child(odd).list__item-active .list__item-header{
+	background-color: #ff8663;
+}
+
+.list__item-active .list__item-link,
+.list__item:nth-child(odd).list__item-active .list__item-link{
+	color: #fff;
+}
+
+.list__item-header {
+	background-color: #696666;
+	font-family: "FiraSansMedium";
+	font-size: 15px;
+	border-radius: 20px;
+}
+
+.list__arr-bottom {
+	background-image: url(../img/arr-bottom.png);
+	background-position: 95% center;
+	background-repeat: no-repeat;
+}
+
+.list__arr-up {
+	background-image: url(../img/arr-up.png);
+	background-position: 95% center;
+	background-repeat: no-repeat;
+}
+
+.list__item-link {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding-left: 20px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.sublist {
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.sublist__item {
+	font-family: "FiraSansLight";
+	color: #4f4f4f;
+	font-size: 15px;
+	padding-left: 20px;
+	padding-bottom: 8px;
+}
